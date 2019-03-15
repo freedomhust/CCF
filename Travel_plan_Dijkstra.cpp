@@ -78,7 +78,7 @@ void Dijkstra(int s){
 					}
 				}
 			}
-		}	
+		}
 	 }
 }
 
