@@ -101,7 +101,7 @@ void DFS(int v){
 	//每有一个分叉就表示多一条最短路 
 	for(int i = 0; i < pre[v].size(); i++){
 		DFS(pre[v][i]);
-	} 
+	}
 	
 	tempPath.pop_back();
 }
